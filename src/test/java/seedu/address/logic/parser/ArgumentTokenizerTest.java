@@ -14,6 +14,7 @@ public class ArgumentTokenizerTest {
     private final Prefix dashT = new Prefix("-t");
     private final Prefix hatQ = new Prefix("^Q");
 
+
     @Test
     public void tokenize_emptyArgsString_noValues() {
         String argsString = "  ";
